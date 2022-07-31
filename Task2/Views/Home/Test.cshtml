@@ -1,0 +1,13 @@
+﻿
+@{   
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Test</h1>
+
+@if(ViewBag.CookieExist){
+    <p>Cookie создана, значение @ViewBag.Value</p>
+}
+else{
+    <p>Cookie не создана</p>
+}

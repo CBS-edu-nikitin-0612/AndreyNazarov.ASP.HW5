@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<form asp-controller = "Home"  method="post">
+    <input name="value" type="text" />
+    <input name="date" type="date" />
+    <button type="submit" asp-action="Index">Создать Cookie</button>
+</form>
+
